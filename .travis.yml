@@ -2,4 +2,9 @@ language: node_js
 
 node: lts/*
 
+install: skip
+
 script: sh test-all-exercises.sh
+
+notifications:
+  email: false
